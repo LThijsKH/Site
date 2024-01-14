@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Hyperblob';
+    src: url('Fonts/hyper-blob.otf') format('otf'),
+         url('Fonts/hyper-blob.ttf') format('ttf');
+   font-family: 'Mosk';
+    src: url('Fonts/MOSKOMAPPA-BF65a0f9f8c231e.otf') format('mappa');
+
+body{
+  font-family: 'Hyperblob' , sans-serif
+  color: yellow;
+  font-size: 3em:
+}
