@@ -13,8 +13,10 @@
     src: url('Fonts/MOSKOMAPPA-BF65a0f9f8c231e.otf') format('opentype');
 }
 
-fullscreen-text{
+body{
   font-family: 'Hyperblob', sans-serif
   color: yellow;
-  font-size: 3em;
+  width: 60%
+  text-align: center:
+  margin: auto;
 }
