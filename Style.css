@@ -1,7 +1,12 @@
 @font-face {
     font-family: 'Hyperblob';
     src: url('Fonts/hyper-blob.otf') format('opentype'),
-         url('Fonts/hyper-blob.ttf') format('truetype');
+         url('Fonts/hyperblob.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Hyperblob-outline';
+    src: url('Fonts/hyperblob-outline.otf') format('opentype'),
+         url('Fonts/hyperblob-outline.ttf') format('truetype');
 }
 @Font-face{
    font-family: 'Mosk';
