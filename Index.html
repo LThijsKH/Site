@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <title>Thijs</title>
-    <link rel="icon" type="image/png" href="Photos/Website/Favicon.png">
+    <link rel="icon" type="png" href="Photos/Website/Favicon.png">
 </head>
 <header>
 Lthijs
 </header>
+ <div class="options">
+        <div class="option active" onclick="showContent('Portfolio')">Portfolio</div>
+        <div class="option" onclick="showContent('Nostalgia')">Nostalgia</div>
+        <div class="option" onclick="showContent('Family')">Family</div>
+        <div class="option" onclick="showContent('About')">About</div>
+      </div>
+    
+      <div class="content" id="PortfolioContent"></div>
+     <div class="content" id="NostalgiaContent" style="display: none;"></div>
+     <div class="content" id="FamilyContent" style="display: none;"></div>
+     <div class="content" id="AboutContent" style="display: none;"></div>
+  </div>
  <body>
 
 <h2>Portfolio</h2>
