@@ -31,6 +31,41 @@ div.gallery:hover {
   border: 1px solid #ccc;
 }
 
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 2px solid #FF5733;
+    background-color: #040D12;
+    height: 8vh; 
+}
+
+.option {
+    flex: 1;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 2px solid #FF5733;
+    background-color: #5C8374;
+    height: 8vh;
+}
+
+.option.active {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 2px solid #FF5733;
+    background-color: #183D3D;
+    height: 8vh;
+}
 div.gallery img {
   width: 100%;
   height: auto;
